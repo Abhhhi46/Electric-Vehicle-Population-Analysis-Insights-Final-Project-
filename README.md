@@ -93,43 +93,6 @@ The visual suite combines static statistical rigor with dynamic exploration:
 2. **Interstate Fast-Charging Corridors:** Prioritize high-power DC fast-charging hubs along cross-state arteries to expand EV utility beyond local commuting.
 3. **Direct EPA Data Integration:** Link licensing pipelines directly with certified EPA vehicle databases to eliminate unrated range artifacts in active registration registries.
 
----
-
-## 📂 Repository Structure
-
-```text
-├── data/
-│   └── Electric_Vehicle_Population_Data.csv   # Raw DOL registration dataset
-├── notebooks/
-│   └── EV_Population_Analysis.ipynb           # Executable Google Colab / Jupyter notebook
-├── reports/
-│   ├── EV_Population_Analysis_Full_Report.docx # Comprehensive 15-section project report
-│   └── Presentation_Deck.pptx                 # 12-slide executive presentation deck
-├── README.md                                  # Project overview and documentation
-└── requirements.txt                           # Python dependencies
-```
-
----
-
-## ⚡ Quickstart
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<your-username>/electric-vehicle-population-analysis.git
-   cd electric-vehicle-population-analysis
-   ```
-
-2. **Install required packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Launch the analysis:**
-   ```bash
-   jupyter notebook notebooks/EV_Population_Analysis.ipynb
-   ```
-
----
 
 ## 📜 References & Acknowledgments
 * **Dataset:** Washington State Department of Licensing ([data.wa.gov](https://data.wa.gov))
